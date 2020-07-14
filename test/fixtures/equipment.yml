@@ -1,0 +1,51 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  serial: MyText
+  maker_ID: 1
+  model: MyText
+  group_ID: 1
+  date_of_purchase: 2020-06-23
+  date_of_output: 2020-06-23
+  value: 
+  time_of_warranty: 1
+  provider_ID: 1
+  mac_wireless: 
+  ip_wlan: 
+  mac_ethernet: 
+  ip_lan: 
+  oprating_system: MyText
+  processor: MyText
+  hdd: MyText
+  ram: MyText
+  dependence_ID: 1
+  analyst_ID: 1
+  status: 1
+  condition: 1
+  city_ID: 1
+  commentary_ID: 1
+
+two:
+  serial: MyText
+  maker_ID: 1
+  model: MyText
+  group_ID: 1
+  date_of_purchase: 2020-06-23
+  date_of_output: 2020-06-23
+  value: 
+  time_of_warranty: 1
+  provider_ID: 1
+  mac_wireless: 
+  ip_wlan: 
+  mac_ethernet: 
+  ip_lan: 
+  oprating_system: MyText
+  processor: MyText
+  hdd: MyText
+  ram: MyText
+  dependence_ID: 1
+  analyst_ID: 1
+  status: 1
+  condition: 1
+  city_ID: 1
+  commentary_ID: 1

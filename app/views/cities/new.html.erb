@@ -1,0 +1,10 @@
+<%= form_for @city, url: cities_path, method: :post do |f| %>
+
+	<%= f.label :name_city, "nombre de la ciudad" %>
+	<%= f.text_field :name_city %>
+	<%= f.submit "llenar formuloario" %>
+<% end %>
+<br>
+<%= link_to "Ciudades", cities_path %>
+
+

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  remote_alias: MyText
+  equipmen_ID: 1
+  remote_password: MyText
+  analyst_ID: 1
+
+two:
+  remote_alias: MyText
+  equipmen_ID: 1
+  remote_password: MyText
+  analyst_ID: 1

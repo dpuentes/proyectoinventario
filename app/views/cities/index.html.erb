@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<th>ID</th>
+		<th>nombre</th>
+	</tr>
+	<tr>
+		<% @cities.each do |city| %>
+			<th><%= city.id %></th>
+			<th><%= city.name_city %></th>
+		<% end%>
+	</tr>
+	<p>Bienvenido <%= current_analyst.email %> Su id de usuario es <%= current_analyst.id %> </p>
+	<%=link_to "Cerrar sesión", destroy_analyst_session_path, method: :delete%>
+</table>

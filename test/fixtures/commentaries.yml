@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content_comment: MyText
+  date_comment: 2020-06-23
+  analyst_ID: 1
+
+two:
+  content_comment: MyText
+  date_comment: 2020-06-23
+  analyst_ID: 1
