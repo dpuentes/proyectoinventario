@@ -57,4 +57,4 @@ gem 'devise'
 
 #gem 'coffee-script-source', '1.8.0'
 
-###
+
