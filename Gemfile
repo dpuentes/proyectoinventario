@@ -57,4 +57,5 @@ gem 'devise'
 
 #gem 'coffee-script-source', '1.8.0'
 
+gem "bulma-rails", "~> 0.9.0"
 
