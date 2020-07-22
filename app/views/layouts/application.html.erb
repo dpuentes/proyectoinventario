@@ -9,8 +9,21 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-			 <p class="notice"><%= notice %></p>
+  	<body>
+	<header>
+		<nav class="be-red white">
+			<ul class="no-list row center-xs">
+				<li class="col-md">
+					Inicio
+				</li>
+         <li class="col-md">
+          menu
+         </li>
+
+			</ul>
+		</nav>
+	</header>
+		 <p class="notice"><%= notice %></p>
      <p class="alert"><%= alert %></p>
     <%= yield %>
 	  </body>
