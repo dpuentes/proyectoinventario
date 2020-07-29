@@ -9,23 +9,25 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  	<body>
-	<header>
-		<nav class="be-red white">
-			<ul class="no-list row center-xs">
-				<li class="col-md">
-					Inicio
-				</li>
-         <li class="col-md">
-          menu
-         </li>
+		<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    </nav>
 
-			</ul>
-		</nav>
-	</header>
+  	<body>
+
 		 <p class="notice"><%= notice %></p>
      <p class="alert"><%= alert %></p>
     <%= yield %>
+
+
 	  </body>
+
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p><strong>Texto en negrilla</strong> Espacio pie de pagina 
+				<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY NC SA 4.0</a>
+   			</p>
+  		</div>
+		</footer>
+
 </html>
 

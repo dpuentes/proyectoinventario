@@ -1,0 +1,31 @@
+.containerr {
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5f2;
+  padding: 40px 10px;
+	border-style: hidden;
+}
+
+
+
+
+.item {
+  background: #AAB7B8;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+  padding: 2px;
+}
+
+
+
+
+.footer {
+  background: #f5f5f2;
+  color: black;
+  line-height: 50px;
+  padding: 0 20px;
+	border-style: hidden;
+}

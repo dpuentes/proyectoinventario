@@ -1,14 +1,53 @@
-<table>
-	<tr>
-		<th>ID</th>
-		<th>nombre</th>
-	</tr>
-	<tr>
-		<% @cities.each do |city| %>
-			<th><%= city.id %></th>
-			<th><%= city.name_city %></th>
-		<% end%>
-	</tr>
-	<p>Bienvenido <%= current_analyst.email %> Su id de usuario es <%= current_analyst.id %> </p>
-	<%=link_to "Cerrar sesión", destroy_analyst_session_path, method: :delete%>
-</table>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>cities</title>
+  </head>
+
+
+<section class="section">
+	<div class="container">
+	<div class="columns is-centered">
+	<div class="column is-one-third">
+
+<h3 class="title is-3">Ciudades</h3>
+
+<div class="container">
+	<div class="columns">
+	<div class="column">
+		<table class="table is-bordered">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>nombre</th>
+			</tr>
+		</thead>
+
+		<tbody>
+		<tr>
+			<% @cities.each do |city| %>
+				<td><%= city.id %></td>
+				<td><%= city.name_city %></td>
+			<% end%>
+		</tr>
+		</tbody>
+		</table>
+
+  <p>Bienvenido <%= current_analyst.email %> Su id de usuario es <%= current_analyst.id %> </p>
+  <%=link_to "Cerrar sesión", destroy_analyst_session_path, method: :delete%>
+
+
+	</div>
+	</div>
+</div>
+			
+
+
+	</div>
+	</div>
+	</div>
+</section>
+
+</html>
